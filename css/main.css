@@ -1,0 +1,257 @@
+@font-face {
+	font-family: "DINPro-Light";
+	src: url('../fonts/DINPro-Light.svg') format('svg'),
+		url('../fonts/DINPro-Light.otf') format('opentype'),
+		url('../fonts/DINPro-Light.ttf') format('truetype'),
+		url('../fonts/DINPro-Light.woff') format('woff')
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+	font-family: "DINPro-Light";
+}
+
+h2 {
+	color: #535035;
+}
+
+header {
+	height: 130px;
+}
+
+.register-button {
+	margin: 30px 0;
+}
+
+.register-button button {
+	color: #ededed;
+	border: 1px solid #ededed;
+}
+
+.social li {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #ffffff;
+	border: 1px solid #e4e4e4;
+	border-radius: 100px;
+}
+
+.social li a, .social li a:hover {
+	color: #857f49;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 100px;
+}
+
+.navbar {
+	border-bottom: 1px solid #d8d8d8;
+	background-color: #f8f8f8;
+}
+
+.navbar a, .navbar a:hover {
+	color: black;
+}
+
+#map {
+	width: 90%;
+	height: 330px;
+	margin: 0 auto;
+	border: 1px solid #d8d8d8;
+}
+
+.info-buttons-content {
+	text-align: center;
+	width: 900px;
+	margin: 80px auto 40px;
+}
+
+.info-buttons-block {
+	height: 200px;
+	border-bottom: 1px solid #d8d8d8;
+}
+
+.info-buttons-content .row {
+	margin-top: 25px
+}
+
+.info-button {
+	color: #6a6326;
+	background-color: #f8f8f8;
+	border: 1px solid #e2e2e2;
+	width: 215px;
+	height: 40px;
+	font-size: 14px;
+	padding-right: 0;
+}
+
+.info-button:hover {
+	color: #6a6326;
+	background-color: #eeeeee;
+	border: 1px solid #e2e2e2;
+	width: 215px;
+}
+
+.info-button span {
+	display: inline-block;
+	text-align: center;
+	float: right;
+	width: 170px;
+}
+
+.pdf-icon {
+	border-right: 1px solid #e2e2e2;
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	top: 0;
+	left: 15px;
+	background-image: url("../images/pdf.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.baloon-layout {
+	max-width: 630px;
+	width: 630px;
+	height: 160px;
+	border-radius: 5px;
+	margin: 0 auto;
+	position: absolute;
+	background: #ef9875;
+	opacity: 0.9;
+	filter: alpha(Opacity=90);
+	color: #fff;
+	text-align: center;
+}
+
+.video-block {
+	min-height: 140px;
+}
+
+.video-content {
+	margin: 0 auto 50px;
+	text-align: center;
+}
+
+.video-content button {
+	border: 1px solid #757042;
+	background-color: #98925e;
+	margin: 50px auto;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.video-content button:hover {
+	border: 1px solid #757042;
+	background-color: #757042;
+	color: #ffffff;
+}
+
+.organization-block {
+	border-top: 1px solid #d8d8d8;
+	background-color: #f8f8f8;
+	padding-bottom: 30px;
+}
+
+.organization-content {
+	text-align: center;
+	width: 900px;
+	margin: 80px auto 60px;
+}
+
+.organization-content h2 {
+	margin-bottom: 20px;
+}
+
+.organization {
+	width: 220px;
+	height: 100px;
+	background-color: #ffffff;
+	border: 1px solid #f2f2f2;
+	margin-bottom: 15px;
+	-webkit-box-shadow: 1px 1px 4px 0px rgba(10, 10, 10, 0.25);
+	-moz-box-shadow:    1px 1px 4px 0px rgba(10, 10, 10, 0.25);
+	box-shadow:         1px 1px 4px 0px rgba(10, 10, 10, 0.25);
+	position: relative;
+}
+
+.organization-logo {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.organization-logo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+footer {
+	border-top: 1px solid #d8d8d8;
+	background-color: #303023;
+}
+
+#footer-navbar a {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height: 70px !important;
+	color: #f8d168;
+}
+
+#footer-navbar a:hover {
+	background-color: #48483b;
+}
+
+#footer-navbar div {
+	padding: 25px 25px 25px 0;
+	color: #ffffff;
+}
+
+#footer-navbar li.round-button {
+	width: 40px;
+	height: 40px !important;
+	margin: 15px 5px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #48483b;
+	border-radius: 100px;
+}
+
+#footer-navbar li.round-button a, #footer-navbar li.round-button a:hover {
+	color: #ffffff;
+	width: 40px;
+	height: 40px !important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 100px;
+	line-height: 0px;
+}
+
+#footer-navbar li.round-button a:hover {
+	background-color: #59594c;
+}
+
+#footer-navbar .navbar {
+	border-bottom: 1px solid #d8d8d8;
+	background-color: #f8f8f8;
+}
+
+#footer-navbar .navbar a, #footer-navbar .navbar a:hover {
+	color: black;
+}
